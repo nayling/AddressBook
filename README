@@ -1,0 +1,11 @@
+Address Book Coding Challenge 2/17/9 - 2/19/19
+Author: Natalie Ayling
+
+To run:
+1. Run Elasticsearch on Local Host 9200 (default for Elasticsearch)
+2. Run project from editor
+
+Description: This program is a RESTful API that uses Java Spark to handle HTTP GET, POST, PUT, and DELETE requests to perform CRUD 
+operations on a local Elasticsearch data store containing Address Book Contacts. Regular expressions and length requirements are
+used to ensure legitimacy of data fields before a Contact is posted, and JUnit testing is used to test that business logic and ensure 
+that the Java program behaves as expected.
